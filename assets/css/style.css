@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin-left: 200;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../images/crossline-lines.png");
+}
+
+header{
+  margin-top: -9px;
+  margin-bottom: -9px;
+  background-color: #ffffff;
+}
+
+#name-box {
+  float: left;;
+  background: #4aaaa5;
+  font-size: 25px;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#ffff;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  max-width: 960px;
+  display: block;
+  margin: 0 auto 0 auto;
+  cursor: pointer;
+}
+
+.navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #ffffff;
+  color: #777777;
+  /* border-right: 1px solid; */
+  
+  
+}
+.navbar .portLink{
+  margin: 10px;
+}
+
+h2 {
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#bio-image {
+  width: 175px;
+  height: 200px;
+  float: left;
+  padding: 20px;
+}
+
+#main-bio { 
+  background: #ffffff;
+  padding-top: 10px;
+  padding-right: 5%;
+  padding-bottom: 15px;
+  padding-left: 5%;
+}
+
+.container{
+  max-width: 960px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0 auto;
+  background-color: #ffffff;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+} 
+
+footer {
+  font-family: 'Arial, Helvetica, sans-serif';
+  background-color: #777777;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 2px;
+  border-top: 8px #4aaaa5 solid;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+#picture-gallery {
+  background: #ffffff;
+  padding-top: 10px;
+  padding-right: 5%;
+  padding-bottom: 10px;
+  padding-left: 5%;
+  height: 550px;
+  width: auto;
+  margin-bottom: 75px;
+}
+
+div.gallery {
+  flex-basis: 20%;
+  height: 225px;
+  margin: 5px;
+  margin-bottom: -30px;
+  margin-top: 10px;
+  float: left;
+  width: 205px;
+}
+
+#contact{
+  background: #ffffff;
+  padding-top: 10px;
+  padding-right: 5%;
+  padding-bottom: 15px;
+  padding-left: 5%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img { 
+  width: 100%;
+  height: 75%;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+  font-size: medium;
+  font-family: "Arial, Helvetica, sans-serif";
+  color: whitesmoke;
+  position: relative;
+  bottom: 70px;
+  background-color:  #4aaaa5;
+} 
+
+a:hover {
+  color: rgb(47, 180, 127);
+
+}
+
+.submit {
+  background-color:#4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#inputBox {
+  width: 860px;
+ }
