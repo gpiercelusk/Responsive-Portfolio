@@ -80,6 +80,7 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
   overflow: hidden;
+  margin-bottom: 100px;
 } 
 
 footer {
@@ -170,3 +171,22 @@ a:hover {
 #inputBox {
   width: 860px;
  }
+
+ @media screen and (max-width: 640px) {
+  .navbar {
+    float: right;
+    width: 100%;
+  }
+}
+ @media screen and (max-width: 640px) {
+  .container {
+    float: none;
+    width: 100%;
+  }
+}
+ /* @media screen and (max-width: 640px) {
+  .navbar {
+    float: none;
+    width: 100%;
+  }
+} */
