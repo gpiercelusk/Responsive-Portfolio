@@ -142,7 +142,7 @@ div.gallery {
 }
 
 div.gallery a:hover {
-  border: 1px solid #777;
+  box-shadow: 5px 10px 18px #777777;
 }
 
 div.gallery img { 
