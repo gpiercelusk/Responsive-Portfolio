@@ -141,7 +141,7 @@ div.gallery {
 
 }
 
-div.gallery:hover {
+div.gallery a:hover {
   border: 1px solid #777;
 }
 
