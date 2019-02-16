@@ -173,20 +173,30 @@ a:hover {
  }
 
  @media screen and (max-width: 640px) {
+  .container, 
+  .footer,
+  .navbar,
+  .gallery {
+    background: aqua;
+    display:block;
+    margin:0 auto;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container, 
+  .footer,
   .navbar {
-    float: right;
+    /* float: right; */
     width: 100%;
   }
 }
- @media screen and (max-width: 640px) {
-  .container {
-    float: none;
+@media screen and (max-width: 980px) {
+  .container, 
+  .footer,
+  .navbar {
+    /* float: right; */
     width: 100%;
   }
 }
- /* @media screen and (max-width: 640px) {
-  .navbar {
-    float: none;
-    width: 100%;
-  }
-} */
